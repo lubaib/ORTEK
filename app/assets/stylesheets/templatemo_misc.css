@@ -22,7 +22,7 @@
 }
 
 .lightbox-loading {
-  background: url(../images/loading.gif) center center no-repeat;
+  background: url(../../assets/loading.gif) center center no-repeat;
   width: 31px;
   height: 31px;
   margin: -16px 0 0 -16px;
@@ -80,19 +80,19 @@
 .lightbox-close {
   right: 30px;
   top: 30px;
-  background-image: url("../images/close.png");
+  background-image: url("../../assets/close.png");
 }
 
 .lightbox-next {
   right: 30px;
   top: 48%;
-  background-image: url("../images/next.png");
+  background-image: url("../../assets/next.png");
 }
 
 .lightbox-previous {
   left: 30px;
   top: 48%;
-  background-image: url("../images/previous.png");
+  background-image: url("../../assets/previous.png");
 }
 
 /***********************************************************************
@@ -122,7 +122,7 @@
 * markup.
 *******************************************************/
 .ls-preloader {
-  background: url(../images/loading.gif) #f2f2f2 no-repeat center 75px;
+  background: url(../../assets/loading.gif) #f2f2f2 no-repeat center 75px;
   opacity: 1;
   /* Do not edit below this line */
   width: 100%;
@@ -294,7 +294,7 @@
   width: 100%;
   height: 35px;
   overflow: hidden;
-  background: url(../images/menu.png) no-repeat right #dddddd;
+  background: url(../../assets/menu.png) no-repeat right #dddddd;
 }
 
 .ls-wrapper .ls-select-box select {
@@ -356,7 +356,7 @@
 .ls-wrapper .ls-nav-right-arrow {
   width: 25px;
   height: 25px;
-  background: url(../images/arrow.png) no-repeat top right;
+  background: url(../../assets/arrow.png) no-repeat top right;
   margin-top: 50px;
   margin-right: 5px;
   /* Do not edit below this line */
@@ -366,7 +366,7 @@
 .ls-wrapper .ls-nav-left-arrow {
   width: 25px;
   height: 25px;
-  background: url(../images/arrow.png) no-repeat top left;
+  background: url(../../assets/arrow.png) no-repeat top left;
   margin-top: 50px;
   margin-left: 5px;
   /* Do not edit below this line */
@@ -375,7 +375,7 @@
 
 .ls-wrapper .ls-nav-left-arrow:hover {
   /* Left graphical arrows hover */
-  background: url(../images/arrow.png) no-repeat bottom left;
+  background: url(../../assets/arrow.png) no-repeat bottom left;
 }
 
 .ls-wrapper .ls-nav-left-arrow:active {
@@ -384,7 +384,7 @@
 
 .ls-wrapper .ls-nav-right-arrow:hover {
   /* Right graphical arrows hover */
-  background: url(../images/arrow.png) no-repeat bottom right;
+  background: url(../../assets/arrow.png) no-repeat bottom right;
 }
 
 .ls-wrapper .ls-nav-right-arrow:active {
