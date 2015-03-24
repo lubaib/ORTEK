@@ -9,7 +9,17 @@ OrtekApp::Application.routes.draw do
   # root 'welcome#index'
 
   # Example of regular route:
-  #   get 'products/:id' => 'catalog#view'
+     get 'brands' => "home#brands"
+     get 'product_lines' => "home#product_lines"
+     get 'services' => "home#services"
+     get 'exclusive_distributor' => "home#exclusive_distributor"
+     get 'about_us' => "home#about_us"
+     get 'videos' => "home#videos"
+     get 'images' => "home#images"
+     get 'catalogue' => "home#catalogue"
+     get 'location' => "home#location"
+     get 'contact_us' => "home#contact_us"
+     get 'education' => "home#education"
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase

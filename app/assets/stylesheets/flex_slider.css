@@ -73,7 +73,7 @@ html[xmlns] .wooslider .slides { display: block; }
 .wooslider-control-thumbs img:hover {opacity: 1;}
 .wooslider-control-thumbs .wooslider-active {opacity: 1; cursor: default;}
 
-/*@media screen and (max-width: 860px) {
+@media screen and (max-width: 860px) {
   .wooslider-direction-nav .wooslider-prev {opacity: 1; left: 0;}
   .wooslider-direction-nav .wooslider-next {opacity: 1; right: 0;}
-}*/
+}

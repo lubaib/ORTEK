@@ -1,49 +1,72 @@
-<footer class="footer-area">
-		<div class="avada-row">
-			<section class="columns columns-4">
-				<article class="col">
-				<div id="text-3" class="footer-widget-col widget_text"><h3>CONTACT</h3>			<div class="textwidget"><p>ORTHOPADIE TECHNIK BERLIN MPC LLC <br />
-Headquoters: <br />
-Building No. #, Office GF-#<br />
-Dubai Healthcare City, UAE<br />
-Working hours: 08:30 AM - 05:30 PM<br />
-Sunday - Thursday<br />
-Office Fax : +971 4 437 03 44<br />
-Phone: +971 4 433 56 85<br />
-E-mail: info@ortekmedical.com
- </p>
-</div>
-		<div style="clear:both;"></div></div>				</article>
-
-				<article class="col">
-				<div id="text-10" class="footer-widget-col widget_text"><h3>CAREER</h3>			<div class="textwidget"><p>If you are interested doing business with us, for cooperation and employment, feel free to contact us by email recruitment@ortekmedical.com
-</p>
-<p>ORTEK ADMIN PANEL
-<% if user_signed_in? %>
-  <%= link_to 'LOG OUT', destroy_user_session_path, :method => :delete %>
-<% else %>
-  <%= link_to 'LOG IN', new_user_session_path %>
-<% end %>
-</p>
-</div>
-		<div style="clear:both;"></div></div>				</article>
-
-				<article class="col">
-				<div id="text-11" class="footer-widget-col widget_text"><h3>NETWORK</h3>			<div class="textwidget"><p>Connect with us via a selection of popular social media, networks and other platforms.
-</p></div>
-		<div style="clear:both;"></div></div><div id="social_links-widget-4" class="footer-widget-col social_links"><h3>Get Social</h3>		<ul class="social-networks  clearfix">
-																																																											</ul>
-		<div style="clear:both;"></div></div>				</article>
-
-				<!-- <article class="col last">
-				<div id="text-12" class="footer-widget-col widget_text"><h3>LOGIN</h3>			<div class="textwidget"><div id="meta-3" class="footer-widget-col widget_meta"> 		<ul>
-			<li><a href="http://otb-uae.com/html/wp-admin/">Site Admin</a></li>			<li><a href="http://otb-uae.com/html/wp-login.php?action=logout&amp;_wpnonce=d20ae19994">Log out</a></li>
-			<li><a href="http://otb-uae.com/html/?feed=rss2" title="Syndicate this site using RSS 2.0">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
-			<li><a href="http://otb-uae.com/html/?feed=comments-rss2" title="The latest comments to all posts in RSS">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
-			 			</ul>
-<div style="clear:both;"></div></div></div>
-		<div style="clear:both;"></div></div>				</article> -->
-			</section>
+<!-- Footer starts here -->	
+	<footer class="footer-area">
+		<div class="avada-row" style="">
+			<!-- Contact Us-->
+			<section class="contact" id="contact">
+				<div data-wow-duration="500ms" class="sec-title text-center mb50 wow fadeInDown animated animated" style="visibility: visible; animation-duration: 500ms; animation-name: fadeInDown;">
+						<h2 style="color:#faca01 !important;">Connect Us</h2>
+						<h3 class="section-subheading text-muted">Everyone has a Personal BEST. Let us Help you find Yours!</h3>
+					</div>
+				<div class="container">
+					<div class="row mb30 connect">					
+					<!-- contact address -->
+					<div data-wow-duration="500ms" class="col-lg-3 col-md-3 col-sm-4 col-xs-12 wow fadeInLeft animated animated" style="visibility: visible; animation-duration: 500ms; animation-name: fadeInLeft;">
+						<div class="contact-address">
+							<h3>ORTEK Medical Equipment Trading L.L.C </h3>
+							<p style="font-size: 13px;line-height: 23px;">Office No: 417, 4th Floor, P.O.BOX: 13265<br>
+							Sultan Business Center, Beside Lamcy Plaza<br>
+							Near To American Hospital,<br>Oud Metha Area Dubai U.A.E<br>
+							Tel: +971 4 354 7338, Fax: +971 4 354 7338<br>						
+							Office Mobile: +971 55 813 92 92<br>
+							Working Hours: 9:00 AM – 8.00 PM<br>
+							Saturday – Thursday<br>
+							Email: <a href="mailto:info@ortekmedical.com">info@ortekmedical.com</a><br>
+							Email: <a href="mailto:sales@ortekmedical.com">sales@ortekmedical.com</a></p>
+						</div>
+					</div>
+					<!-- end contact address -->
+					
+					<!-- contact form -->
+					<div data-wow-delay="300ms" data-wow-duration="500ms" class="col-lg-8 col-md-8 col-sm-7 col-xs-12 wow fadeInDown animated animated" style="visibility: visible; animation-duration: 500ms; animation-delay: 300ms; animation-name: fadeInDown;">
+						<div class="contact-form">
+							<h3 style="font-size:22px !important;">Say hello!</h3>
+							<form id="contact-form" action="#" novalidate="novalidate">
+								<div class="input-group name-email">
+									<div class="input-field">
+										<input type="text" class="form-control" placeholder="Name" id="name" name="name">
+									</div>
+									<div class="input-field">
+										<input type="email" class="form-control" placeholder="Email" id="email" name="email">
+									</div>
+								</div>
+								<div class="input-group">
+									<textarea class="form-control" placeholder="Message" id="message" name="message"></textarea>
+								</div>
+								<div class="input-group">
+									<input type="submit" value="Send message" class="pull-right" id="form-submit">
+								</div>
+							</form>
+						</div>
+					</div>
+					<!-- end contact form -->
+					
+					<!-- footer social links -->
+					<div data-wow-delay="600ms" data-wow-duration="500ms" class="col-lg-1 col-md-1 col-sm-1 col-xs-12 wow fadeInRight animated animated" style="visibility: visible; animation-duration: 500ms; animation-delay: 600ms; animation-name: fadeInRight;">
+						<ul class="footer-social">
+							<li><a href="#"><i class="fa fa-behance fa-2x"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+							<li><a href="#"><i class="fa fa-dribbble fa-2x"></i></a></li>
+							<li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
+						</ul>
+					</div>
+					<!-- end footer social links -->
+					
+				</div>
+			</div>
+			<div data-wow-duration="500ms" class="sec-title text-center wow fadeInUp animated animated" style="visibility: visible; animation-duration: 500ms; animation-name: fadeInUp;">
+				<p>If you are interested doing business with us, for cooperation and employment, feel free to contact us by email <a href="mailto:hr@ortekmedical.com">hr@ortekmedical.com</a></p>
+			</div>
+		</section>
 		</div>
 	</footer>
 			<footer id="footer">
@@ -51,8 +74,8 @@ E-mail: info@ortekmedical.com
 						<ul class="social-networks social-networks-dark">
 																																																														</ul>
 					<ul class="copyright">
-				<li><p class='text-center'>ORTEK Medical Equipment Trading LLC © <span class='year'>2014</span>  <br>
-   <i>Design:</i> <a href='https://www.facebook.com/lubaibbinramla'>CeeJey</a>
+				<li><p class='text-center'>ORTEK Medical Equipment Trading LLC © <span class='year'>2013</span>  <br>
+   <i>Designed & Developed:</i> <a href='https://www.facebook.com/lubaibbinramla'>CeeJey</a>
 </p></li>
 			</ul>
 		</div>

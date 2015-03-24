@@ -1,24 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>ORTEK MEDICAL</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Ortek Medical">
+    <meta name="author" content="CeeJey">
+	<link href="../../assets/bootstrap.min.css" rel="stylesheet">
+	<link href="../../assets/agency.css" rel="stylesheet">
+	
+	<link rel="stylesheet" href="../../assets/jquery.fancybox.css">
+	<!-- animate -->
+    <link rel="stylesheet" href="../../assets/animate.css">
+	<!-- Main Stylesheet -->
+    <link rel="stylesheet" href="../../assets/main.css">
+	<!-- media-queries -->
+    <link rel="stylesheet" href="../../assets/media-queries.css">
 
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	
+	<!-- Custom Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+	
+	<style type="text/css">
+	#nav select {
+		display: none;
+	}
+	</style>
+	
 
-	<title>ORTEK MEDICAL</title>
-	<%#= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-	<%#= javascript_include_tag "application", "data-turbolinks-track" => true %>
-	<%= csrf_meta_tags %>	
+	<!-- Avada v3.2.0 -->
+
 	<!--[if lte IE 8]>
-	<link rel="stylesheet" href="http://otb-uae.com/html/wp-content/themes/Avada/css/ie8.css" />
+	<link rel="stylesheet" href="http://otb-uae.com/html/wp-content/themes/Avada/../../assets/ie8.css" />
 	<![endif]-->
 
 	<!--[if IE]>
-	<link rel="stylesheet" href="http://otb-uae.com/html/wp-content/themes/Avada/css/ie.css" />
+	<link rel="stylesheet" href="http://otb-uae.com/html/wp-content/themes/Avada/../../assets/ie.css" />
 	<![endif]-->
-
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 		<style type="text/css">
 			@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
 				#wrapper .ei-slider{width:100% !important;}
@@ -28,16 +51,92 @@
 				#wrapper .ei-slider{width:100% !important;}
 				body #header.sticky-header,body #header.sticky-header.sticky{display:none !important;}
 			}
-			.animated { 
-				visibility:hidden; !important;
-			}
 		</style>
+			
+	<style type="text/css">
+	.animated { visibility:hidden; !important;}
+	#testimonials {
+	    background: none repeat scroll 0 0 #eee !important;
+	    min-height: 400px;
+	    position: relative;
+	}
+	#testimonials .testimonials-inner {
+    	height: 100%;
+    	padding-bottom: 60px;
+    	position: relative;
+    	width: 100%;
+	}
+	#testimonials .testimonials-inner .testimonial-container {
+	    margin-top: 20px;
+	    position: relative;
+	}
+	.text-right {
+	    text-align: right;
+	}
+	#testimonials .testimonials-inner .testimonial-container .testimonial .testi-img {
+	    display: block;
+	    height: 112px;
+	    margin-left: 100px;
+	    margin-top: 18px;
+	    position: relative;
+	    width: 112px;
+	    z-index: 3;
+	}
+	#testimonials .testimonials-inner .testimonial-container .testimonial .testi-text:before {
+	    -moz-border-bottom-colors: none;
+	    -moz-border-left-colors: none;
+	    -moz-border-right-colors: none;
+	    -moz-border-top-colors: none;
+	    border-color: transparent #ffffff transparent transparent;
+	    border-image: none;
+	    border-radius: 30px;
+	    border-style: solid;
+	    border-width: 50px;
+	    content: "";
+	    display: none;
+	    left: 0;
+	    position: absolute;
+	    top: 0;
+	}
+	#testimonials .testimonials-inner .testimonial-container .testimonial .testi-img img {
+	    -moz-border-bottom-colors: none;
+	    -moz-border-left-colors: none;
+	    -moz-border-right-colors: none;
+	    -moz-border-top-colors: none;
+	    border-color: #66fffc transparent #66fffc #66fffc;
+	    border-image: none;
+	    border-radius: 55px;
+	    border-style: solid;
+	    border-width: 2px;
+	    display: block;
+	    position: relative;
+	}
+	#testimonials .testimonials-inner .testimonial-container .testimonial .testi-text {
+	    border: 2px solid #fed136;
+	    border-radius: 30px;
+	    color: #777;
+	    padding: 20px 10px 10px 25px;
+	    position: relative;
+	    transition: all 600ms ease-in 0s;
+	    z-index: 2;
+	}
+	.one_half img{
+		width: 400px;
+		height: 400px;
+	}
+	.one_half img:hover{
+		opacity: 0.4;
+		filter: alpha(opacity=40);
+	}
+	</style>
 		
 	<!--[if lt IE 10]>
 	<style type="text/css">
 	.animated { visibility:visible; !important;}
 	</style>
 	<![endif]-->
+
+
 <link rel='stylesheet' id='map_std-css'  href='../../assets/map.css' type='text/css' media='all' />
 <link rel='stylesheet' id='style-css-css'  href='../../assets/avada.css' type='text/css' media='all' />
 <link rel='stylesheet' id='media-css-css'  href='../../assets/avada_media.css' type='text/css' media='all' />
@@ -73,7 +172,7 @@
 	<![endif]-->
 	
 	<!--[if lte IE 8]>
-	<script type="text/javascript" src="../../assets/respond.js"></script>
+	<script type="text/javascript" src="http://otb-uae.com/html/wp-content/themes/Avada/js/respond.js"></script>
 	<![endif]-->
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
@@ -88,42 +187,49 @@
 	Your browser's JavaScript seems to be Disabled. Please enable the JavaScript to get all functionalty of the site.
 	</div>
 </noscript>
-<%= render "layouts/header" %>
-<%= yield %>
-<%= render "layouts/footer" %>
+<div id="wrapper" >
+	<%= render "layouts/header" %>
+	<%= yield %>
+	<%= render "layouts/footer" %>
+</div> <!-- wrapper -->
 
-	<!-- W3TC-include-js-head -->
-
-<link rel='stylesheet' id='mediaelement-css'  href='../../assets/mediaelementplayer.min.css?ver=2.15.1' type='text/css' media='all' />
-<link rel='stylesheet' id='wp-mediaelement-css'  href='../../assets/wp-mediaelement.css?ver=4.1.1' type='text/css' media='all' />
-<script type='text/javascript' src='../../assets/contact-form-jquery.min.js?ver=3.50.0-2014.02.05'></script>
+<!-- common scripts -->
 <script type='text/javascript'>
 /* <![CDATA[ */
-var _wpcf7 = {"loaderUrl":"http:\/\/otb-uae.com\/html\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
-/* ]]> */
-</script>
-<script type='text/javascript' src='../../assets/contact-scripts.js?ver=3.7.2'></script>
-<script type='text/javascript' src='../../assets/jquery-mousewheel.min.js?ver=2.1.0-20121206'></script>
-<script type='text/javascript' src='../../assets/jquery.flexslider.min.js?ver=2.1.0-20121206'></script>
-<script type='text/javascript' src='../../assets/comment-reply.min.js?ver=4.1.1'></script>
-<script type='text/javascript' src='../../assets/modernizer.min.js'></script>
-<script type='text/javascript' src='../../assets/jquery.carouFredSel-6.2.1-min.js'></script>
-<script type='text/javascript' src='../../assets/jquery.prettyPhoto-min.js'></script>
-<script type='text/javascript' src='../../assets/jquery.flexslider-min.js'></script>
-<script type='text/javascript' src='../../assets/jquery.fitvids-min.js'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var js_local_vars = {"dropdown_goto":"Go to..."};
-/* ]]> */
+var js_local_vars = {"dropdown_goto":"GO"};
+/* ]]> 
 </script>
 <script type='text/javascript' src='../../assets/main-min.js'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var mejsL10n = {"language":"en-US","strings":{"Close":"Close","Fullscreen":"Fullscreen","Download File":"Download File","Download Video":"Download Video","Play\/Pause":"Play\/Pause","Mute Toggle":"Mute Toggle","None":"None","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Unmute":"Unmute","Mute":"Mute","Captions\/Subtitles":"Captions\/Subtitles"}};
-var _wpmejsSettings = {"pluginPath":"\/html\/wp-includes\/js\/mediaelement\/"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='../../assets/mediaelement-and-player.min.js?ver=2.15.1'></script>
-<script type='text/javascript' src='../../assets/wp-mediaelement.js?ver=4.1.1'></script>
+<!-- Newly added scripts -->
+	<!-- Single Page Nav -->
+        <script src="../../assets/jquery.singlePageNav.min.js"></script>
+		<!-- jquery.fancybox.pack -->
+        <script src="../../assets/jquery.fancybox.pack.js"></script>
+		<!-- jquery.mixitup.min -->
+        <script src="../../assets/jquery.mixitup.min.js"></script>
+		<!-- jquery.parallax -->
+        <script src="../../assets/jquery.parallax-1.1.3.js"></script>
+		<!-- jquery.countTo -->
+        <script src="../../assets/jquery-countTo.js"></script>
+		<!-- jquery.appear -->
+        <script src="../../assets/jquery.appear.js"></script>
+		<!-- jquery easing -->
+        <script src="../../assets/jquery.easing.min.js"></script>
+		<!-- jquery easing -->
+        <script src="../../assets/wow.min.js"></script>
+		<script>
+			var wow = new WOW ({
+				boxClass:     'wow',      // animated element css class (default is wow)
+				animateClass: 'animated', // animation css class (default is animated)
+				offset:       120,          // distance to the element when triggering the animation (default is 0)
+				mobile:       false,       // trigger animations on mobile devices (default is true)
+				live:         true        // act on asynchronously loaded content (default is true)
+			  }
+			);
+			wow.init();
+		</script> 
+		<!-- Custom Functions -->
+        <script src="../../assets/custom.js"></script>
+
 </body>
 </html>
