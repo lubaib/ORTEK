@@ -108,8 +108,8 @@
 		border-color:#ffffff !important;
 	}
 	
-		#main,#wrapper{
-		background-color:#ffffff !important;
+	#main, #wrapper {
+    	background: url("../../assets/wrapper.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
 	}
 	
 		.footer-area{
@@ -394,7 +394,7 @@
 		line-height:20px !important;
 	}
 	
-		#nav{font-size:12px !important;}
+		#nav{font-size:14px !important;}
 	
 		.header-social *{font-size:12px !important;}
 	
@@ -776,12 +776,12 @@
    nav#nav{
    	width:100%;
    	float:left;
-   	padding:0 25px;
+   	padding:0 5px;
    	border-top: 3px solid #000;
     border-bottom: 1px solid #e0c141;
    }
    #nav ul li {
-    padding: 0 30px 0 0;
+    padding: 0 24px 0 0;
     }
     #sliders-container{
     	width:100%;
@@ -804,7 +804,7 @@
 	    font-size: 13px;
 	    font-weight: bold;
 	    padding-bottom: 2px;
-	    font-family: calibre;
+	    font-family: calibri;
     }
     h5.toggle a:hover{
 		color:#e0c141 !important;
@@ -815,7 +815,7 @@
 	#nav ul a, .side-nav li a, #header .cart-content a, #header .cart-content a:hover, #small-nav .cart-content a, #small-nav .cart-content a:hover, #wrapper .header-social .top-menu .cart > a, #wrapper .header-social .top-menu .cart > a > .amount{
 		color: #061532 !important;
 		font-weight: bold;
-		font-family: calibre;
+		font-family: calibri;
 	}
 	#main .portfolio-one .button, #main .comment-submit, #reviews input#submit, .comment-form input[type="submit"], .wpcf7-form input[type="submit"], .bbp-submit-wrapper button, .button.default, .price_slider_amount button, .gform_wrapper .gform_button{
 		background: -moz-linear-gradient(center top , #bad3fb 0%, #5691f5 100%) repeat scroll 0 0 #4285f4 !important;
@@ -848,12 +848,13 @@
 	.logo-tagline{
 		color: #010619;
 	    float: left;
-	    font-size: 13px;
+	    font-size: 18px;
 	    font-weight: bold;
 	    margin-left: 10px;
 	    padding-bottom: 10px;
 	    text-transform: capitalize;
-	    font-family: calibre;
+	    font-family: calibri;
+	    margin-top: 2px;
 	}
 	.footer-area .avada-row{
 		max-width: 100%;
@@ -1077,11 +1078,11 @@
     	float: left;
 	}
 	#nav ul .current_page_item a, #nav ul .current-menu-item a, #nav ul > .current-menu-parent a, #nav ul ul, #nav li.current-menu-ancestor a, #nav ul li a:hover{
-		font-family: calibre;
+		font-family: calibri;
 		font-weight: bold;
 	}
 	#wrapper #nav ul li ul li a{
-		font-family: calibre;
+		font-family: calibri;
 		font-weight: bold;
 	}
 	#nav ul ul{
@@ -1095,6 +1096,8 @@
 	    margin-left: 10px;
 	    padding-bottom: 10px;
 	    text-transform: capitalize;
-	    font-family: calibre;
+	    font-family: calibri;
 	}
-	
+	.timeline:before{
+		background-color: rgb(194,196,199);
+	}

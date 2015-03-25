@@ -20,6 +20,22 @@ OrtekApp::Application.routes.draw do
      get 'location' => "home#location"
      get 'contact_us' => "home#contact_us"
      get 'education' => "home#education"
+     get 'orthotic_prosthetic' => "home#orthotic_prosthetic"
+     get 'spinal' => "home#spinal"
+     get 'rehabilitation_aids' => "home#rehabilitation_aids"
+     get 'ankle_products' => "home#ankle_products"
+     get 'elbow_products' => "home#elbow_products"
+     get 'finger_products' => "home#finger_products"
+     get 'foot_products' => "home#foot_products"
+     get 'knee_products' => "home#knee_products"
+     get 'hip_products' => "home#hip_products"
+     get 'wrist_products' => "home#wrist_products"
+     get 'shoulder_products' => "home#shoulder_products"
+     get 'neck_products' => "home#neck_products"
+     get 'spine_products' => "home#spine_products"
+     get 'walkers' => "home#walkers"
+     get 'examination' => "home#examination"
+     get 'chairs' => "home#chairs"
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase

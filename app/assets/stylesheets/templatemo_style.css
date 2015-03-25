@@ -280,7 +280,7 @@ a.menu-toggle-btn {
   font-weight: 600;
 }
 .about #icons-about .active {
-  background-color: #b10021;
+  background-color: rgb(245, 190, 2);
 }
 
 /*------------------------------------------------------
@@ -352,7 +352,9 @@ a.menu-toggle-btn {
   padding:50px 0;
 }
 
-
+.about #icons-about .active {
+  background-color: rgb(245, 190, 2);
+}
 
 
 
