@@ -8,6 +8,8 @@ OrtekApp::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
+  post 'home/send_email' => "home#send_email"
+
   # Example of regular route:
      get 'brands' => "home#brands"
      get 'product_lines' => "home#product_lines"

@@ -82,5 +82,10 @@ class HomeController < ApplicationController
 
   def chairs
   end
+
+  def send_email
+    UserMailer.contact_email(params).deliver
+    render :text=>""
+  end
   
 end

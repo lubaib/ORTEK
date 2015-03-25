@@ -80,3 +80,19 @@
 			</ul>
 		</div>
 	</footer>
+
+	<script type="text/javascript">
+	$('#contact-form').submit(function() { 
+		var valuesToSubmit = $(this).serialize();
+	    $.ajax({
+	        type: "POST",
+	        url: 'home/send_email', //sumbits it to the given url of the form
+	        data: valuesToSubmit,
+	        dataType: "JSON" // you want a difference between normal and ajax-calls, and json is standard
+	    }).success(function(json){
+	    	alert("Sent Successfully")
+	        console.log("success", json);
+	    });
+    return false;
+	})
+	</script>
